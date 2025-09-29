@@ -232,7 +232,7 @@
 
       const key = getTodayKey();
       const ab = dayMap[key];
-      const abText = ab ? `Today is an - ${ab} Day` : `No A/B Day scheduled today`;
+      const abText = ab ? `Today is - ${ab} Day` : `No A/B Day scheduled today`;
 
       document.getElementById('output').textContent =
         `${timeStr} — ${dateStr} — ${abText}`;
